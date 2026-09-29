@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: watch-party
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /health

@@ -1,0 +1,16 @@
+{
+  "name": "watch-party",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm install --include=dev --prefix client && npm run build --prefix client",
+    "start": "node server/index.js",
+    "dev:server": "node --watch server/index.js",
+    "dev:client": "npm run dev --prefix client"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "engines": { "node": ">=18" }
+}
