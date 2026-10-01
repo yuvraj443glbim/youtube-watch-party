@@ -2,7 +2,7 @@
 
 Watch YouTube together in real time. One room, one shared video state (play, pause, seek, current video), with role-based control.
 
-**Live demo:** _add your Render URL here after deploying_
+**Live demo:** https://youtube-watch-party-o3wj.onrender.com
 
 ## Features
 - Create a room or join with a 6-letter code or invite link
@@ -42,9 +42,9 @@ npm install && npm run build && npm start   # http://localhost:3000
 2. Render > New > Web Service > pick the repo.
 3. Build command: `npm install && npm run build`
 4. Start command: `npm start`
-5. Deploy, then paste the URL at the top of this README.
+5. Deploy.
 
-(`render.yaml` already has these settings.) Render's free tier sleeps after inactivity, so the first load can take about 30 seconds.
+(`render.yaml` already has these settings.) Render's free tier sleeps after inactivity, so the first load can take about 30-50 seconds.
 
 ## Architecture
 ```
